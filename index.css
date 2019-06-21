@@ -53,6 +53,11 @@
         height: 100%;
     }
 
+    .navbar-container {
+        margin: 5px;
+        transform: rotate(270deg);
+    }
+
       header {
         width: 50%;
         height: 100%;
