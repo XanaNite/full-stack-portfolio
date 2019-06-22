@@ -38,12 +38,14 @@
   .navbar-container ul{
     display: flex;
     list-style: none;
+    border-bottom: 1px solid white;
   }
 
   .navbar-container li{
     padding: 5px;
     border: 1px solid white;
-    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    border-top-right-radius: 5px;
     font-size: 12px;
   }
 
@@ -76,11 +78,17 @@
   
   footer {
     height: 25px;
-    font-size: 16px;
+    font-size: 12px;
     margin-right: 5px;
     position: fixed;
     bottom: 0;
     right: 0;
+  }
+
+  @media only screen and (min-width: 750px) and (min-height: 750px) {
+    header h1 {
+      font-size: 32px;
+    }
   }
 
   @media only screen and (min-width: 1250px) and (min-height: 750px) {
@@ -91,11 +99,17 @@
     nav {
         width: 50%;
         height: 100%;
+        margin: 0px;
     }
 
     .navbar-container {
         margin: 5px;
         transform: rotate(270deg);
+        margin: 0px;
+    }
+
+    .navbar-container ul {
+      height: 10%;
     }
 
       header {
