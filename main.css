@@ -8,7 +8,7 @@
   body {
     font-family: "Open Sans",
     sans-serif; 
-    font-size: 20px;
+    font-size: 16px;
     color: #444;
     text-align: center;
     line-height: 1.5;
@@ -27,6 +27,21 @@
   .accentBackground{
     background-color: #00CFFF;
     color: #000000;
+  }
+
+  .headerFont {
+    font-family: 'Vast Shadow', cursive;
+    font-weight: normal;
+  }
+
+  .bodyFont {
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+    padding: 10px 5px 5px 5px;
+  }
+
+  .reset-height {
+    height: auto;
   }
 
   nav {
@@ -65,24 +80,23 @@
     position: absolute;
     top: 80%;
     font-size: 20px;
-  }
-
-  main {
-    height: 750px;
-  }
-
-  section {
-    width: 100%;
-    height: 250px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    padding: 10px;
   }
   
+  .project-container {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 1px solid white;
+  }
+
   footer {
     height: 25px;
     font-size: 12px;
-    margin-right: 5px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+    padding-right: 5px;
+    text-align: right;
   }
 
   @media only screen and (min-width: 750px) and (min-height: 750px) {
@@ -99,11 +113,9 @@
     nav {
         width: 50%;
         height: 100%;
-        margin: 0px;
     }
 
     .navbar-container {
-        margin: 5px;
         transform: rotate(270deg);
         margin: 0px;
     }

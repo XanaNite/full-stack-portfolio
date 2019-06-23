@@ -7,12 +7,13 @@
     <meta name="description" content="A portfolio site for Amber Meritt Campbell, Full Stack Web Developer">
     <title>Amber Meritt Campbell</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Special+Elite|Vast+Shadow&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="flexbox-container">
     <nav role="navigation" class="darkBackground">
         <div class="navbar-container">
-            <ul>
+            <ul class="headerFont">
                 <li class="darkBackground">Amber Meritt Campbell</li>
                 <li class="accentBackground">About</li>
                 <li class="accentBackground">Projects</li>
@@ -22,27 +23,31 @@
     </nav>
     <header role="banner" class="darkBackground">
         <img src="full-moon.jpg" alt="Full moon photo taken by Amber Meritt Campbell">
-        <h1>Hello, I’m Amber. Life explorer and solver of mysteries, one coding project at a time.</h1>
+        <h1 class="reset-height">Hello, I’m Amber. Life explorer and solver of mysteries, one coding project at a time.</h1>
     </header>
     </div>
-    <main role="main">
-        <section class="lightBackground">
+    <main role="main" class="reset-height">
+        <section class="lightBackground reset-height">
             <div class="about-container">
-                about
+                <h2 class="reset-height headerFont">About</h2>
+                <p class="reset-height bodyFont">Growing up, I loved solving logic puzzles. Adding that with my mom’s flair for creativity and  dad’s love of technology, I was meant to be a full stack web developer. My deductive reasoning and intuitive skills have lead me to be the head of my team in less than a year at my current job.</p>
+                <p class="reset-height bodyFont">When I am not solving the mysteries of code, I am an adventurer virtually and in real life: travel, video/tabletop games, hiking, food, and photography.</p>
             </div>
         </section>
-        <section class="darkBackground">
+        <section class="darkBackground reset-height">
             <div class="projects-container">
-                projects
+                <h2 class="reset-height headerFont">Projects</h2>
+                <h3 class="reset-height headerFont">Quiz App</h3>
+                <div class="reset-height bodyFont project-container">quiz app</div>
             </div>
         </section>
-        <section class="lightBackground">
+        <section class="lightBackground reset-height">
             <div class="contact-container">
                 contact
             </div>
         </section>
     </main>
-    <footer>Amber Meritt Campbell &#169;2019</footer>
+    <footer class="lightBackground">Amber Meritt Campbell &#169;2019</footer>
     <script src="index.js"></script>
 </body>
 </html>
