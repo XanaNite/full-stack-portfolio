@@ -1,1 +1,1 @@
-Thinkful portfolio site project
+Scope: a portfolio site for prospective clients to view my projects and contact me as a full stack developer.
