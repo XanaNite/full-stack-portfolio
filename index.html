@@ -15,9 +15,9 @@
         <div class="navbar-container">
             <ul class="headerFont">
                 <li class="darkBackground">Amber Meritt Campbell</li>
-                <li class="accentBackground">About</li>
-                <li class="accentBackground">Projects</li>
-                <li class="accentBackground">Contact</li>
+                <li class="accentBackground" id="#about"><a class="nav-link" href="#">About</a></li>
+                <li class="accentBackground" id="#projects"><a class="nav-link" href="#">Projects</a></li>
+                <li class="accentBackground" id="#contacts"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -28,7 +28,7 @@
     </div>
     <main role="main" class="reset-height">
         <section class="lightBackground reset-height">
-            <div class="about-container">
+            <div class="about-container" id="about">
                 <h2 class="reset-height headerFont">About</h2>
                 <p class="reset-height bodyFont">Growing up, I loved solving logic puzzles. Adding that with my mom’s flair for creativity and  dad’s love of technology, I was meant to be a full stack web developer. First, I started out getting an Associate's in Web Design and Technology. This is where I discovered my passion for web development over design so I enrolled in Thinkful's Full Stack Web Development bootcamp. Being a recent graduate I am excited to get started.</p>
                 <p class="reset-height bodyFont">My deductive reasoning and intuitive skills have lead me to be the head of my team in less than a year at my current job. I am a problem solver. I am a mind reader. Yes, I am not kidding. My job requires me to use the information provided to me and deduce the root of the issue. There are many times the information is minimal. What problem can I solve for you?</p>
@@ -36,7 +36,7 @@
             </div>
         </section>
         <section class="darkBackground reset-height">
-            <div class="projects-container">
+            <div class="projects-container" id="projects">
                 <h2 class="reset-height headerFont">Projects</h2>
                 <div class="reset-height wrapper">
                     <h3 class="reset-height headerFont">Quiz App</h3>
@@ -58,7 +58,7 @@
             </div>
         </section>
         <section class="lightBackground reset-height">
-            <div class="contact-container">
+            <div class="contact-container" id="contacts">
                     <h2 class="reset-height headerFont">Contact</h2>
                     <a href="mailto:amber.merittcampbell@gmail.com" target="-blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Envelope_font_awesome.svg" alt="email logo" class="imgResize">
@@ -73,6 +73,7 @@
         </section>
     </main>
     <footer class="lightBackground">Amber Meritt Campbell &#169;2019</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
