@@ -91,6 +91,12 @@
   }
 
   .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .project-wrapper {
     width: 300px;
   }
   
